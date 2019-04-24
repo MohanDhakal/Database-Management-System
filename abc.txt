@@ -1,0 +1,11 @@
+
+//those employee who aren't working yet
+r1=pempno,name,address(Employee?Workon)
+pempno,name,address(Employee)-pempno,name,address(r1)
+
+//part name and qty_on_hand of those who are in dbms projec
+r2=s pname=='dbms'(Project?Part?Use)
+ppartname,qty_on_hand(r2)
+
+//name of projects that are used by employee from kathmandu
+ppname(s address=='kathmandu'( Employee?Project?Workon))

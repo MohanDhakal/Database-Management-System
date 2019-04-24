@@ -1,0 +1,13 @@
+
+show the layout of a cache for a CPU that can address 256k*8 of data; the cache holds 16K*8 data and has the following mapping strategies.
+Give the number of bits per location and the total number of locations.
+a.fully associative 
+b.Four-Way set associative
+ans:-
+(i) fully associative
+Tag(18)|Word(3)|
+18bit (Tag)|8bit data|1 valid bit in total (27 bit)
+
+(ii) 4-way associative
+Tag(2)|set(16)|word(3)
+2 bit (Tag)|8 bit data|1 valid bit (4 times)in total (11*4 bit)
